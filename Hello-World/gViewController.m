@@ -13,9 +13,12 @@
 @property (weak, nonatomic) IBOutlet UILabel *label;
 - (IBAction)changeGreeting:(id)sender;
 
+@property (copy, nonatomic) NSString *userName;
+
 @end
 
 @implementation gViewController
+@synthesize userName = _userName;
 
 - (void)viewDidLoad
 {
@@ -30,5 +33,21 @@
 }
 
 - (IBAction)changeGreeting:(id)sender {
+    
+    self.userName = self.textfield.text;
+    
+    NSString *nameString = self.userName;
+    if ([nameString length] == 0) {
+        nameString = @"World";
+    }
+    NSString *greeting = [[NSString alloc] initWithFormat:@"Hello, %@!", nameString];
+    self.label.text = greeting;
 }
+- (BOOL)textFieldShouldReturn:(UITextField *)theTextField {
+    if (theTextField == self.textfield) {
+        [theTextField resignFirstResponder];
+    }
+    return YES;
+}
+
 @end

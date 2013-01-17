@@ -273,6 +273,7 @@
 				GCC_PREFIX_HEADER = "Hello-World/Hello-World-Prefix.pch";
 				INFOPLIST_FILE = "Hello-World/Hello-World-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -284,6 +285,7 @@
 				GCC_PREFIX_HEADER = "Hello-World/Hello-World-Prefix.pch";
 				INFOPLIST_FILE = "Hello-World/Hello-World-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

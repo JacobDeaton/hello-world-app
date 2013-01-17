@@ -9,6 +9,9 @@
 #import "gViewController.h"
 
 @interface gViewController ()
+@property (weak, nonatomic) IBOutlet UITextField *textfield;
+@property (weak, nonatomic) IBOutlet UILabel *label;
+- (IBAction)changeGreeting:(id)sender;
 
 @end
 
@@ -26,4 +29,6 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)changeGreeting:(id)sender {
+}
 @end

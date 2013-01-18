@@ -13,7 +13,9 @@
 @property (weak, nonatomic) IBOutlet UILabel *label;
 - (IBAction)changeGreeting:(id)sender;
 
+
 @property (copy, nonatomic) NSString *userName;
+
 
 @end
 
@@ -26,11 +28,16 @@
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
+
+
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
 
 - (IBAction)changeGreeting:(id)sender {
     
@@ -43,11 +50,18 @@
     NSString *greeting = [[NSString alloc] initWithFormat:@"Hello, %@!", nameString];
     self.label.text = greeting;
 }
+
+
 - (BOOL)textFieldShouldReturn:(UITextField *)theTextField {
-    if (theTextField == self.textfield) {
+    if (theTextField == self.textfield)
+    {
         [theTextField resignFirstResponder];
+        [self changeGreeting:nil];
     }
     return YES;
 }
+
+
+
 
 @end

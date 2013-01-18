@@ -1,0 +1,3 @@
+What is the main purpose of the resign first responder message?
+
+    The main purpose of the message is not to get rid of the keyboard on the screen. Rather, it is to get remove the cursor from the text box, thereby eliminatng the text, because it will not be sent from the state where it is not the first responder. In other words, it makes the text field inactive, rendering it unable to send or add characters at that time. 

@@ -19,6 +19,7 @@
 		E8059DFE16A867DE006DD8FA /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8059DFC16A867DE006DD8FA /* MainStoryboard_iPhone.storyboard */; };
 		E8059E0116A867DE006DD8FA /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8059DFF16A867DE006DD8FA /* MainStoryboard_iPad.storyboard */; };
 		E8059E0416A867DE006DD8FA /* gViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8059E0316A867DE006DD8FA /* gViewController.m */; };
+		E8DE4A6216A8E97D0049EF24 /* ReadME.txt in Resources */ = {isa = PBXBuildFile; fileRef = E8DE4A6116A8E97D0049EF24 /* ReadME.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		E8059E0016A867DE006DD8FA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		E8059E0216A867DE006DD8FA /* gViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gViewController.h; sourceTree = "<group>"; };
 		E8059E0316A867DE006DD8FA /* gViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gViewController.m; sourceTree = "<group>"; };
+		E8DE4A6116A8E97D0049EF24 /* ReadME.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadME.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				E8059DF316A867DE006DD8FA /* gAppDelegate.h */,
 				E8059DF416A867DE006DD8FA /* gAppDelegate.m */,
 				E8059DFC16A867DE006DD8FA /* MainStoryboard_iPhone.storyboard */,
+				E8DE4A6116A8E97D0049EF24 /* ReadME.txt */,
 				E8059DFF16A867DE006DD8FA /* MainStoryboard_iPad.storyboard */,
 				E8059E0216A867DE006DD8FA /* gViewController.h */,
 				E8059E0316A867DE006DD8FA /* gViewController.m */,
@@ -168,6 +171,7 @@
 				E8059DFB16A867DE006DD8FA /* Default-568h@2x.png in Resources */,
 				E8059DFE16A867DE006DD8FA /* MainStoryboard_iPhone.storyboard in Resources */,
 				E8059E0116A867DE006DD8FA /* MainStoryboard_iPad.storyboard in Resources */,
+				E8DE4A6216A8E97D0049EF24 /* ReadME.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +313,7 @@
 				E8059E0916A867DE006DD8FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
